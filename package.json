@@ -1,0 +1,21 @@
+{
+    "name": "menuapp-types",
+    "version": "1.0.0",
+    "description": "TypeScript boilerplate for NPM or Github Packages",
+    "main": "dist/index.ts",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "test": "mocha --timeout 60000 --exit -r ts-node/register test/**/*.spec.ts",
+      "build": "tsc",
+      "deploy": "npm publish"
+    },
+    "author": "Dileep",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/idileepd/menuapp-types.git"
+    },
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com/@idileepd"
+    }
+  }
